@@ -62,14 +62,6 @@ a {
     transform: translateY(-3px);
 }
 
-.section-title {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    color: var(--secondary-color);
-    position: relative;
-}
-
 .section-title::after {
     content: '';
     position: absolute;
@@ -110,17 +102,8 @@ header {
 }
 
 /* About Section */
-.about {
-    padding: 6rem 5%;
-    background: #fff;
-}
 
 .about-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
     gap: 3rem;
 }
 
